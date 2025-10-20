@@ -24,8 +24,7 @@ int main()
 
 int binaryToDecimal(unsigned long long binaryNumber)
 {
-	int decimalNumber = 0;
-	int i = 0;
+	int decimalNumber = 0, i = 0;
 	unsigned long long divisor = 1;
 	long numToAdd = 1;
 
