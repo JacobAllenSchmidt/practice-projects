@@ -23,7 +23,7 @@ bottomLeftInput.addEventListener('input', function() {
 	box.style.borderBottomLeftRadius = `${bottomLeftInput.value}%`;
 });
 
-copyButton.addEventListener('onclick', () => writeClipboardText("hello!"));
+copyButton.addEventListener('click', () => writeClipboardText(`border-radius: ${topLeftInput.value}% ${topRightInput.value}% ${bottomRightInput.value}% ${bottomLeftInput.value}%;`));
 
 
 
