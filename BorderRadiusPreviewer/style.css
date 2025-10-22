@@ -1,0 +1,13 @@
+#border-radius-display {
+	margin: auto;
+	width: 30em;
+	height: 30em;
+	border-width: 2px;
+	border-color: red;
+	border-radius: 10% 40% 30% 100%;
+	background-color: red;
+}
+
+#controls {
+
+}
